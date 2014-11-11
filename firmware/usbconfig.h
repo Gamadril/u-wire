@@ -302,7 +302,7 @@ these macros are defined, the boot loader uses them.
  * to fine tune control over USB descriptors such as the string descriptor
  * for the serial number.
  */
-#define USB_CFG_DEVICE_CLASS        0xff    /* set to 0 if deferred to interface */
+#define USB_CFG_DEVICE_CLASS        0    /* set to 0 if deferred to interface */
 #define USB_CFG_DEVICE_SUBCLASS     0
 //#define USB_CFG_DEVICE_CLASS    0xFE /* application specific */
 //#define USB_CFG_DEVICE_SUBCLASS 0x01 /* device firmware upgrade */
